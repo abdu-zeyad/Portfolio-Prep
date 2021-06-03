@@ -1,1 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
+
+
+main{
+    height: 100%;
+    position: relative;
+    top: 120px;
+}
+.bio{
+    width: 90%;
+margin-left: 8%;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+    border: 1px rgb(168, 168, 168) solid;
+    min-height: 640px;
+}
+header{
+    z-index: 2;
+    background-color: rgb(245, 245, 245);
+}
+.ltuc{
+    display: flex;
+}
+.ltucimg{
+    flex: 1;
+}
+.ltucp{
+    flex: 3;
+   
+}
+.ltucp p{
+    width: 90%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.uoj{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.uojimg{
+    flex: 1;
+}
+.uojimg img {
+    position: relative;
+    right: 50px;
+}
+.uojp{
+    flex: 3;
+}
+.uojp p {
+    width: 90%;
+    font-family: 'Raleway', sans-serif;
+  
+}
+
+
+.hs{
+    display: flex;
+}
+.hsimg{
+    flex: 1;
+}
+.hsp{
+    flex: 3;
+}
+.hsp p{
+    width: 90%;
+    font-family: 'Raleway', sans-serif;
+}
+footer{
+    display: flex;
+    position: relative;
+    top: 150px;
+}
